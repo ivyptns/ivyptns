@@ -1,0 +1,87 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, Arial;
+  color: #0f234a;
+}
+
+.container {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 16px;
+}
+
+/* 상단 메뉴 */
+.nav {
+  background: white;
+  border-bottom: 1px solid #e7ecf6;
+}
+.nav .logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+.nav nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #0f234a;
+}
+.nav nav .btn {
+  padding: 8px 14px;
+  border-radius: 30px;
+  background: #1f4fb9;
+  color: #fff;
+}
+
+/* 배너 */
+.hero {
+  position: relative;
+  background: linear-gradient(140deg,#0f234a,#2d65d2);
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.hero .hero-content {
+  text-align: center;
+}
+.hero .cta {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 22px;
+  border-radius: 30px;
+  background: white;
+  color: #0f234a;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* 서비스 */
+.section {
+  padding: 60px 0;
+}
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 18px;
+  border: 1px solid #e7ecf6;
+  box-shadow: 0 8px 18px rgba(0,0,0,.04);
+}
+
+/* 푸터 */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f234a;
+  color: white;
+}
